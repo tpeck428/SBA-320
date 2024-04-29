@@ -1,0 +1,66 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+  
+}
+
+body {
+background-color: #C1D6AE;
+}
+
+/* nav css */
+.nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #537147;
+  color: white;
+  padding: 5px;
+  font-size: 2em;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  color: #DD9787;
+}
+
+/* welcome page css */
+
+.welcome{
+  background-image: url('https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #5F271B;
+  text-align: center;
+  font-size: 2em;
+}
+
+/*categories css*/
+
+.categories li{
+  font-size: large;
+}
+
+/* random recipe css*/
+
+.random-meal p{
+  font-size: medium;
+}
+
+.random-meal li{
+  font-size: small;
+}
+
+.btn {
+background-color: #DD9787;
+cursor: pointer;
+}
